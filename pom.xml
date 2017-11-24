@@ -115,6 +115,10 @@
       <artifactId>spring-boot-devtools</artifactId>
       <scope>runtime</scope>
     </dependency>
+      <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-security</artifactId>
+      </dependency>
   </dependencies>
 
   <build>
@@ -233,4 +237,10 @@
     </license>
   </licenses>
 
+    <repositories>
+        <repository>
+            <id>spring-security</id>
+            <url>https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-security</url>
+        </repository>
+    </repositories>
 </project>
